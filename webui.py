@@ -39,6 +39,7 @@ def generate_clicked(*args):
         gr.update(visible=True, value=None), \
         gr.update(visible=False, value=None), \
         gr.update(visible=False)
+        
 
     worker.async_tasks.append(task)
 
